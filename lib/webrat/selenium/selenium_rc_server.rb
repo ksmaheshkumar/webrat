@@ -41,7 +41,7 @@ module Webrat
       end
 
       def jar_path
-        File.expand_path(__FILE__ + "../../../../../vendor/selenium-server.jar")
+        File.expand_path(__FILE__ + "../../../../../vendor/selenium-server-standalone-2.0a1.jar")
       end
 
       def selenium_grid?
